@@ -1,0 +1,174 @@
+/* General Styling */
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+nav {
+  text-align: right;
+}
+
+nav span {
+  display: inline-flex;
+  padding: 10px;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+/* header styling */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.logo img{
+  height: 50px;
+  margin-left: 10px;
+  padding: 0;
+  flex-grow: 1;
+}
+
+
+/* Main content styling */
+
+.content {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto 78px auto;
+  padding-top: 69px;
+  flex-direction: column;
+}
+/* Mission styling */
+
+.mission {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  flex-grow: 1;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 69px;
+
+}
+
+.mission span {
+  background-color: black;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Featurea Tea CSS */
+
+.tea {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.products {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+
+}
+
+.product img {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+}
+
+.product p {
+    font-size: 1.3rem;
+    font-weight: 700;
+    ;
+}
+
+/* locarion CSS */
+
+.info {
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.locations {
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.location {
+    padding: 10px;
+    background: black;
+    flex-basis: 300px;
+    margin: 0 20px;
+    opacity: 1;
+}
+
+.location h3 {
+    font-weight: bold;
+}
+
+/* Contact and footer */
+.contact {
+    height: 200px;
+}
+
+.contact h2{
+    font-weight: bold;;
+    padding: 0 20px;
+    display: inline-block;
+    margin: 0;
+}
+
+}
+
+.contact h5{
+  font-weight: bold;
+}
+
+
+footer {
+    position: relative;
+    bottom: 0;
+    text-align: left;
+    min-height: 40px;
+    margin-left: 20px;
+}
+
+footer h4 {
+  font-weight: bold;
+
+}
